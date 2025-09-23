@@ -23,7 +23,7 @@ class WalpaperFeatures extends StatelessWidget {
                 borderRadius: BorderRadius.circular(7),
                 color: Colors.grey[300],
               ),
-              child: Image.asset(AssetsPath.image, fit: BoxFit.cover),
+              child: Image.asset(AssetsPath.sleep, fit: BoxFit.cover),
             ),
           );
         },
