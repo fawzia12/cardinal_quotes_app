@@ -1,10 +1,10 @@
-import 'package:cardinal_quotes_app/categtory/category_screen.dart';
-import 'package:cardinal_quotes_app/home/screen/widger/drawers.dart';
-import 'package:cardinal_quotes_app/quotes/screen/quotes_screen.dart';
-import 'package:cardinal_quotes_app/quotes/widget/featured%20quotes.dart';
-import 'package:cardinal_quotes_app/quotes/widget/memorial%20cards.dart';
-import 'package:cardinal_quotes_app/home/screen/widger/selection_header.dart';
-import 'package:cardinal_quotes_app/home/screen/widger/top_bar.dart';
+import 'package:cardinal_quotes_app/features/categtory/category_screen.dart';
+import 'package:cardinal_quotes_app/features/home/screen/widger/drawers.dart';
+import 'package:cardinal_quotes_app/features/quotes/screen/quotes_screen.dart';
+import 'package:cardinal_quotes_app/features/quotes/widget/featured%20quotes.dart';
+import 'package:cardinal_quotes_app/features/quotes/widget/memorial%20cards.dart';
+import 'package:cardinal_quotes_app/features/home/screen/widger/selection_header.dart';
+import 'package:cardinal_quotes_app/features/home/screen/widger/top_bar.dart';
 import 'package:cardinal_quotes_app/utilis/assets_path.dart';
 import 'package:cardinal_quotes_app/walpaper/widget/walpaper_features.dart';
 import 'package:flutter/material.dart';

@@ -1,4 +1,4 @@
-import 'package:cardinal_quotes_app/common/main_bottom_navbar_screen.dart';
+import 'package:cardinal_quotes_app/features/common/main_bottom_navbar_screen.dart';
 
 import 'package:cardinal_quotes_app/utilis/app_colors.dart';
 import 'package:cardinal_quotes_app/utilis/assets_path.dart';

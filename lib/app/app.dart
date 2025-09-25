@@ -1,7 +1,7 @@
-import 'package:cardinal_quotes_app/common/main_bottom_navbar_screen.dart';
-import 'package:cardinal_quotes_app/home/screen/home_screen.dart';
-import 'package:cardinal_quotes_app/home/screen/sign_up_screen.dart';
-import 'package:cardinal_quotes_app/quotes/screen/quotes_screen.dart';
+import 'package:cardinal_quotes_app/features/common/main_bottom_navbar_screen.dart';
+import 'package:cardinal_quotes_app/features/home/screen/home_screen.dart';
+import 'package:cardinal_quotes_app/features/home/screen/sign_up_screen.dart';
+import 'package:cardinal_quotes_app/features/quotes/screen/quotes_screen.dart';
 import 'package:cardinal_quotes_app/utilis/app_colors.dart';
 import 'package:flutter/material.dart';
 
@@ -54,8 +54,8 @@ class cardinal_quotes_app extends StatelessWidget {
           widget = Mainbottomnavbar();
         } else if (settings.name == QuotesScreen.home) {
           widget = QuotesScreen();
-        }else{
-           widget = const HomeScreen();
+        } else {
+          widget = const HomeScreen();
         }
         return MaterialPageRoute(builder: (context) => widget);
       },

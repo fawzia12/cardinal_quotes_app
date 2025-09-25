@@ -15,4 +15,8 @@ class AssetsPath {
   static const bird1 = '$_imagepath/bird1.png';
   static const bird2 = '$_imagepath/bird2.png';
   static const positive = '$_imagepath/positive.png';
+  static const q = '$_imagepath/q.png';
+  static const madi = '$_imagepath/madi.png';
+  static const vibe = '$_imagepath/vibe.png';
+  static const transparent = '$_imagepath/transparent.png';
 }

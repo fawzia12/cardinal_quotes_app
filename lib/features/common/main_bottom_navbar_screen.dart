@@ -1,6 +1,8 @@
-import 'package:cardinal_quotes_app/quotes/screen/quotes_screen.dart';
+import 'package:cardinal_quotes_app/features/music/screen/music_screen.dart';
+import 'package:cardinal_quotes_app/features/notes/screen/notes_screen.dart';
+import 'package:cardinal_quotes_app/features/quotes/screen/quotes_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:cardinal_quotes_app/home/screen/home_screen.dart';
+import 'package:cardinal_quotes_app/features/home/screen/home_screen.dart';
 import 'package:cardinal_quotes_app/utilis/app_colors.dart';
 import 'package:cardinal_quotes_app/utilis/assets_path.dart';
 
@@ -17,9 +19,9 @@ class _MainbottomnavbarState extends State<Mainbottomnavbar> {
 
   final List<Widget> _screens = const [
     HomeScreen(),
-    HomeScreen(),
+    Musicscreen(),
     QuotesScreen(),
-    HomeScreen(),
+    NotesScreen(),
     HomeScreen(),
   ];
 
